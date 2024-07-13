@@ -9,3 +9,10 @@ swig -c++ -python example.i
 python3 setup.py build_ext --inplace
 
 python demo.py
+
+Output:
+0
+1
+2
+-1
+4
