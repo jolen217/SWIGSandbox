@@ -1,9 +1,12 @@
 #include <vector>
 
+struct PyList {
+    float fArr[3];
+};
 struct PySegment {
     int label;
     std::vector<int> mask;
-    float fArr[3];
+    PyList arr;
 };
 
 struct Dummy {
