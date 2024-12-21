@@ -1,0 +1,5 @@
+- Use SWIG to generate the wrapper code:
+swig -c++ -python imgprc.i
+
+- Compile the shared library and SWIG wrapper:
+python setup.py build_ext --inplace
